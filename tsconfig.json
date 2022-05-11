@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "baseUrl": "src",
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
@@ -13,8 +14,15 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
-    "incremental": true
+    "incremental": true,
+    "paths": {
+      "@providers/*": ["providers/*"],
+      "@components/*": ["components/*"],
+      "@services/*": ["services/*"],
+      "@store/*": ["store/*"],
+      "@graphql/*": ["graphql/*"]
+    }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/gpl/getPosts.gql"],
   "exclude": ["node_modules"]
 }

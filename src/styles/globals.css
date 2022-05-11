@@ -1,0 +1,46 @@
+@font-face {
+  font-family: Noto_Sans_JP;
+  src: url("/fonts/Noto_Sans_JP_400.otf") format("opentype");
+}
+
+/* @font-face {
+  font-family: Noto_Sans_JP;
+  src: url("/fonts/Noto_Sans_JP_Black_900.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Noto_Sans_JP;
+  src: url("/fonts/Noto_Sans_JP_Bold_700.otf") format("opentype");
+} */
+
+/* @font-face {
+  font-family: Noto_Sans_JP;
+  src: url("/fonts/Noto_Sans_JP_Light_300.otf") format("opentype");
+} */
+/* 
+@font-face {
+  font-family: Noto_Sans_JP;
+  src: url("/fonts/Noto_Sans_JP_Medium_500.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Noto_Sans_JP;
+  src: url("/fonts/Noto_Sans_JP_Thin_250.otf") format("opentype");
+} */
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Noto_Sans_JP, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
